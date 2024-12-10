@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета для работы</title>
+  </head>
+  <br>
+    <header>
+      <h1>Анкета кандидата на работу</h1>
+    </header>
+    <h2>Сведения анкеты</h2>
+    <br method="get">
+
+      <div>ФИО</div>
+      <input type="text"  id="name" name="name" required /><br>
+      <div>Дата рождения</div>
+      <input type="date" id="date" name="date of birth" required /> <br>
+      <div>Место рождения</div>
+      <input type="text" name="place of birth" required/> <br>
+      <div>Почта</div>
+      <input type="email" id="email" name="email" required></br>
+      <div>
+        <label for="citizenship">Национальность</label> <br>
+        <select name="citizenship" id="">
+          KZ
+          <option value="KZ">KAZ</option>
+          <option value="UZB">UZB</option>
+          <option value="RU">RUS</option>
+          <option value="JPN">JPN</option>
+        </select></br>
+      </div>
+      <div>Резюме</div>
+      <input type="file" id="resume" name="resume" accept=".pdf" required /> <br>
+
+      <!-- Таблица по графику работы-->
+      <h3>График работы</h3>
+         <table border="1">
+            <caption>График работы</caption>
+            <tr>
+                <th>Рабочие дни</th>
+                <th>Рабочее время</th>
+            </tr>
+            <tr>
+                <td>Понедельник, вторник</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Пятница, суббота</td>
+                <td>9:00-21:00</td>
+            </tr>
+         </table> </br>
+         <button type="submit">Отправить данные</button>
+        <button type="reset">Сбросить данные</button>
+
+
+    </form>
+
+    <footer>&copy; Made by Dast @ 2024</footer>
+  </body>
+</html>
